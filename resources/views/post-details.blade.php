@@ -12,7 +12,6 @@
                                 <hr>
                                 {{ $post->content }}
                             </div>
-                            <div class="card-footer"><a href="" class="btn btn-danger">Subscribe</a></div>
                         </div>
                     </div>
         </div>
