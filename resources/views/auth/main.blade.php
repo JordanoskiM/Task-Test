@@ -25,7 +25,8 @@
 
     @yield('stylesheets')
 </head>
-<body class="app flex-row align-items-center">
+<body>
+@include('partials.error_handling')
  @yield('content')
 <!-- CoreUI and necessary plugins-->
  <script src="{{ mix('js/app.js') }}"></script>

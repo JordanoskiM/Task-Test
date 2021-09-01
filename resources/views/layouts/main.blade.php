@@ -24,6 +24,8 @@
     <div class="app-body">
         @include('partials.sidebar')
 
+        @include('partials.error_handling')
+
         @yield('content')
 
 {{--        @include('partials.aside')--}}

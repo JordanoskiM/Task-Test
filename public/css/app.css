@@ -1,3 +1,17 @@
 .invalid-feedback {
   display: block;
 }
+
+.custom-card .card-body {
+  min-height: 250px;
+  max-height: 250px;
+}
+
+.custom-card .card-header {
+  min-height: 50px;
+  max-height: 50px;
+}
+
+.pointer {
+  cursor: pointer;
+}
