@@ -1,4 +1,3 @@
-<p align="center"><a href="#" target="_blank"><img src="/public/img/logo/logo_VERTICAL_COLOR_400x400.png" width="400"></a></p>
 
 ## About Test Task
 
@@ -35,18 +34,19 @@ php artisan serve
 
 ## How to use
 
-### Dashboard
-* You can log in with one of the credentials in the seeders or you can register as a new user
-* Visit the /dashboard and you can create a new websites
-* Inside the website you can create new posts
-* You can edit and delete websites and posts
-
 ### Home page
+* You can log in with one of the credentials in the seeders or you can register as a new user
+* If you don't use seeded credentials, you will need to verify your email after registration (using Mailtrap for testing purposes)
 * On the Home page, everyone can see all the websites and their posts
 * Everyone can subscribe to a website
 * When new post is created, the subscriber will receive an email with post title and description
 * In the email there is an option to view the new created post
 * Subscriber can unsubscribe using the unsubscribe button from email that was sent
+
+### Dashboard
+* Visit the /dashboard and you can create a new websites
+* Inside the website you can create new posts
+* You can edit and delete websites and posts
 
 ## Emails testing
 * To test the emails, you can login to the MailTrap and find the credentials inside => Inboxes -> Demo inbox
